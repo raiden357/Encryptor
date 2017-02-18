@@ -10,7 +10,8 @@ class Encryptor
      'y'=>'l','z'=>'m',}
    end
 
-   def encrypt(letter) # creates new method which encrypts the message
+   def encrypt(letter)   # creates new method which encrypts the message
+     lowercase_letter = letter.downcase
      cipher[letter]
    end
  end
